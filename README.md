@@ -1,5 +1,3 @@
-
-
 <h3 align="center">Formulario de inicio de sesión</h3>
 
 <p align="center">Un formulario en php para autentificarse.</p>
@@ -10,9 +8,7 @@ Dende Visual Studio Code fixen o sistema de login máis simple posible con PHP. 
 
 Dentro de login puxen o HTML que se vai a ver e máis unha función de PHP para detectar a clave e o usuario que se introducen no formulario de login e comprobar se son correctos.
 
-
-
-```$function comprobar_usuario(nombre, clave){
+```$function
 function comprobar_usuario($nombre, $clave){
     if($nombre === "usuario" and $clave === "1234"){
         $usu['nombre'] = "usuario";
@@ -27,8 +23,6 @@ function comprobar_usuario($nombre, $clave){
 ```
 
 Unha vez comprobado que funciona, procedín a introducilo no noso traballo de Project Management. Primeiro borrei os enlaces de login do HTML e sustituíno polo formulario que acabo de facer. Logo, adaptei a función ao que necesitábamos nesta web e engadín unha máis para poder entrar á sección de empregados ou a sección de manager respectivamente.
-
-
 
 ```
 function comprobar_usuario($nombre, $clave){
@@ -82,6 +76,6 @@ Se entramos como Admin ou manager vamos á carpeta de manager e vemos as secció
 
 
 
-![2022-01-26 09_24_45-Window.png](C:\Users\Usuario\Desktop\2022-01-26%2009_24_45-Window.png)
+![](img/captura1.png)
 
-![2022-01-26 09_25_44-Window.png](C:\Users\Usuario\Desktop\2022-01-26%2009_25_44-Window.png)
+![](img/captura2.png)
